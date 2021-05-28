@@ -1,5 +1,7 @@
 import { BrowserModule } from '@angular/platform-browser';
+import { RouterModule } from '@angular/router';
 import { NgModule } from '@angular/core';
+
 
 // Rutas Principales
 import { AppRoutingModule } from './app-routing.module';
@@ -25,6 +27,7 @@ import { NopagesfoundComponent } from './nopagesfound/nopagesfound.component';
     AppRoutingModule,
     PagesModule,
     AuthModule,
+    RouterModule,
   ],
   
   
